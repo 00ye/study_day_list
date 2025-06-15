@@ -59,34 +59,32 @@
 
 1. **克隆仓库**
 
-   ```
-git clone https://github.com/yourusername/Civil-Service-Exam-Schedule.git
-   cd Civil-Service-Exam-Schedule
 ```
-   
+git clone https://github.com/00ye/study_day_list.git
+```
+
+
 2. **创建数据库**
 
    - 在MySQL中创建一个名为`exam_schedule`的数据库
 
    - 使用以下SQL设置字符集：
-
-     ```
+```
 CREATE DATABASE exam_schedule 
      CHARACTER SET utf8mb4 
 COLLATE utf8mb4_unicode_ci;
-     ```
-
+```
 3. **配置数据库连接**
 
    - 打开`index.php`文件
-
    - 修改数据库连接配置：
 
-     ```
+```
 $servername = "localhost";
-     $username = "your_db_username";
+$username = "your_db_username";
 $password = "your_db_password";
-     $dbname = "exam_schedule";
+$dbname = "exam_schedule";
+```
 ```
    
 4. **部署项目**
@@ -95,7 +93,7 @@ $password = "your_db_password";
 
 5. **访问系统**
 
-   - 在浏览器中访问：`http://localhost/Civil-Service-Exam-Schedule/`
+   - 在浏览器中访问：`http://localhost/`
 
 6. **初始化数据库**
 
@@ -158,33 +156,7 @@ $password = "your_db_password";
 
 ## 贡献指南
 
-欢迎贡献代码！请遵循以下步骤：
-
-1. Fork 项目仓库
-
-   ```
-https://github.com/00ye/Civil-Service-Exam-Schedule
-   ```
-
-2. 创建新的分支
-
-   ```
-git checkout -b feature/your-feature
-   ```
-
-3. 提交更改
-
-   ```
-git commit -am 'Add some feature'
-   ```
-
-4. 推送分支
-
-   ```
-git push origin feature/your-feature
-   ```
-
-5. 创建Pull Request
+欢迎贡献代码！
 
 ## 许可证
 
@@ -218,3 +190,4 @@ SOFTWARE.
 
 如有任何问题或建议，请联系项目维护者：
 📧 邮箱：[admin@000k.de](https://mailto:admin@000k.de/)
+```
